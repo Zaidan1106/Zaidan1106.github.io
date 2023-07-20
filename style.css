@@ -1,0 +1,766 @@
+/* Nav Bar CSS */
+html {
+    overflow-x: hidden;
+}
+
+*,html,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fContainer {
+    display: flexbox;
+    width: 100%;
+    height: 80px;
+    background-color: lightslategray;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.5)
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    padding: 10px;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.firstname {
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.lastname {
+    color: orange;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+.searchbar {
+    display: flex;
+    margin-left: 75px;
+}
+
+.searchbar>.search-input {
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    box-shadow: 1px 1px 1px orange;
+    margin-top: 6px;
+    transition: .3s;
+} 
+
+.searchbar>.search-input:hover {
+    box-shadow: 3px 3px 3px orange;
+    transition: all ease-in-out .3s;
+}
+
+.img-searchbar {
+    width: 45px;
+    height: 45px;
+    transition: .3s;
+}
+
+.img-searchbar:hover {
+    width: 50px;
+    height: 50px;
+    transition: all ease-in-out .3s;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.navigation>li>img {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    transition: .3s;
+}
+
+.navigation>li>a:hover {
+    color: orange;
+    transition: all .3s ease-in-out;
+}
+
+.navigation>li>img:hover {
+    border-radius: 65px;
+    height: 65px;
+    width: 65px;
+    transition: all .3s ease-in-out;
+}
+
+.brand:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px 1px orange;
+    transition: all .3s ease-in-out;
+    margin: 40px;
+}
+
+.active {
+    background-color: orange;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.active:hover {
+    color: aliceblue !important;
+    background-color: rgb(146, 96, 5);
+}
+
+/* Home CSS */
+.container-home {
+    padding: 40px;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 320px;
+    background-color: rgb(36, 36, 36);
+    color: orange;
+}
+
+.home-text>h1 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 7px 7px 7px rgb(255, 255, 255);
+    margin-right: 17px;
+    transition: .3s;
+}
+
+.home-text>h1:hover {
+    box-shadow: -7px 7px 7px rgb(255, 255, 255);
+    transition: all ease-in-out .3s;
+}
+
+.home-text>p {
+    color: rgb(221, 221, 221);
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 90px;
+    text-shadow: 7px 7px 7px rgb(95, 94, 94);
+    transition: .3s;
+}
+
+.home-text>p:hover {
+    text-shadow: -7px 7px 7px rgb(95, 94, 94);
+    transition: all ease-in-out .3s;
+}
+
+.home-image>img {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    margin-left: 495px;
+    width: 307px;
+    height: 417px;
+    transition: .3s;
+}
+
+.home-image>img:hover {
+    margin-left: 475px;
+    transition: all ease-in-out .3s;
+}
+
+/* Social CSS */
+.social{
+    padding-top: 30px;
+}
+
+.social>a {
+    background-color: orange;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: -4px 4px 4px 0px aliceblue;
+    transition: .3s;
+}
+
+.social>a:hover {
+    box-shadow: 4px 4px 4px 0px aliceblue;
+    transition: all ease-in-out .3s;
+}
+
+.instagram {
+    margin-left: 10px;
+}
+
+.row-align-center {
+    display: flex;
+    flex-direction: row;
+}
+
+/* About CSS */
+.container-about {
+    background-color: antiquewhite;
+    padding-top: 40px;
+}
+
+.row-align-center-about {
+    display: flexbox;
+}
+
+.wrapper-about {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap-text-img {
+    margin-left: 150px;
+}
+
+.img-about>img {
+    width: 404px;
+    height: 400px;
+    padding-left: 40px;
+    transition: .3s;
+}
+
+.img-about>img:hover {
+    width: 414px;
+    height: 410px;
+    padding-left: 40px;
+    transition: all ease-in-out .3s;
+}
+
+.text-about>.text-box{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+    font-weight: 500;
+    box-shadow: 4px 4px 4px rgb(64, 61, 61);
+    margin-bottom: 0px;
+    transition: .3s;
+}
+
+.text-about>.text-box:hover{
+    box-shadow: 7px 7px 7px black;
+    transition: all ease-in-out .3s;
+}
+
+.text-about>h1 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 1000px;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(64, 61, 61);
+    transition: .3s;
+}
+
+.text-about>h1:hover {
+    box-shadow: -4px 4px 4px rgb(64, 61, 61);
+    transition: all ease-in-out .3s;
+}
+
+.text-about>p {
+    width: fit-content;
+    margin-left: 1px;
+}
+
+.text-about>p>.span-satu {
+    color: red;
+    font-weight: bold;
+}
+
+.text-about>p>.span-dua {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.img-text-about {
+    margin-top: 20px;
+}
+
+.img-text-about>ul>li {
+    list-style: none;
+    padding: 30px;
+    padding-top: 1px;
+}
+
+.img-text-about>ul>li>img {
+    width: 150px;
+    border-radius: 100px;
+    transition: .3s;
+}
+
+.img-text-about>ul>.siji {
+    padding-left: 0;
+}
+
+.img-text-about>ul {
+    display: flex;
+    flex-direction: row;    
+}
+
+.img-text-about>ul>li>img:hover {
+    width: 180px;
+    border-radius: 130px;
+    transition: all ease-in .3s;
+}
+
+/* Detail CSS */
+.detail {
+    background-color: antiquewhite;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 420px;
+}
+
+.wrapper-detail {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-detail>img {
+    width: 460px;
+    height: 420px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    transition: .3s;
+}
+
+.img-detail>img:hover {
+    width: 460px;
+    height: 420px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    transition: all ease-in-out .3s;
+}
+
+.textbox-detail {
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.textbox-detail>h1 {
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    margin-right: 525px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(64, 61, 61);
+    transition: .3s;
+}
+
+.textbox-detail>h1:hover {
+    box-shadow: -4px 4px 4px rgb(64, 61, 61);
+    transition: all ease-in-out .3s;
+}
+
+.textbox-detail>.wrap-p-img {
+    margin-top: 20px;   
+    background-color: orange;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px; 
+    box-shadow: 7px 7px 7px rgb(64, 61, 61);
+    transition: .3s;
+}
+
+.textbox-detail>.wrap-p-img:hover {
+    box-shadow: 10px 10px 10px black;
+    transition: all ease-in-out .3s;
+}
+
+.textbox-detail>.wrap-p-img>.text>p>span {
+   color: black;
+   font-weight: bold;
+}
+
+.textbox-detail>.wrap-p-img>.img-detail1 {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.img-detail1 {
+    display: flex;
+}
+
+.wr-img-text-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.wr-img-text-detail>img {
+    margin: 10px;
+    transition: .3s;
+}
+
+.wr-img-text-detail>img:hover {
+    width: 110px;
+    height: 110px;
+    transition: all ease-in-out .3s;
+}
+
+.wr-img-text-detail>.gitar {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 5px;
+}
+
+.wr-img-text-detail>small {
+    margin-left: 45px;
+    color: black;
+    font-weight: bold;
+}
+
+.wr-img-text-detail>.koding {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 5px;
+}
+
+.wr-img-text-detail>.basket {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 5px;
+}
+
+/* Timeline CSS */
+.timeline {
+    background-color:burlywood;
+    padding-top: 55px;
+    padding-bottom: 65px;
+}
+
+.judul-tl {
+    padding-top: 15px;
+    margin-left: 520px;
+    margin-right: 520px;
+    padding: 10px;
+    background-color: black;
+    color: orange;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(64, 61, 61);
+    transition: .3s;
+}
+
+.judul-tl:hover {
+    box-shadow: -7px 7px 7px rgb(64, 61, 61);
+    transition: all ease-in-out .3s;
+}
+
+.judul-tl>small {
+    margin-left: 73px;
+    font-size: 15px;
+}
+
+.judul-tl>h1 {
+    font-size: 35px;
+    margin-left: 23px;
+}
+
+.container {
+    padding: 10px 30px;
+    background-color: burlywood;
+    width: 45%;
+    left: 50%;
+}
+
+.text-box-timeline {
+    padding: 20px 30px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 4px 4px 4px rgb(64, 61, 61);
+    transition: .3s;
+}
+
+.text-box-timeline:hover {
+    background-color: orange;
+    color: aliceblue;
+    box-shadow: 10px 10px 10px 0px black;
+    transition: all ease-in-out .3s;
+}
+
+.left-container {
+    margin-left: 0;
+}
+
+.right-container {
+    margin-left: 50%;
+}
+
+.container>img {
+    position: absolute;
+    width: 20px;
+    margin-left: 592px;
+    padding-top: 19px;
+}
+
+.right-container>img {
+    margin-left: -40px;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 850px;
+    background-color: aliceblue;
+    margin-top: 1625px;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+.wrapper-timeline {
+    padding-top: 55px;
+}
+
+/* Scroll CSS */
+.scroll-up {
+    background-color: orange;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: .3s;    
+}
+
+.scroll-up:hover {
+    height: 65px;
+    width: 65px;
+    transition: all ease-in-out .3s;
+}
+
+.scroll-up>a>img {
+    width: 60px;
+    transition: .3s;
+}
+
+.scroll-up>a>img:hover {
+    width: 65px;
+    transition: all ease-in-out .3s;
+}
+
+/* Contact CSS */
+.container-contact {
+    background-color: antiquewhite;
+    text-align: center;
+    height: 430px;
+    display: flex;
+
+}
+
+.text-contact {
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
+.text-contact>h1 {
+    padding: 10px;
+    background-color: black;
+    color: orange;
+    border-radius: 10px;
+    max-width: 175px;
+    max-height: 50px;
+    box-shadow: 7px 7px 7px rgb(64, 61, 61);
+    transition: .3s;
+}
+
+.text-contact>h1:hover {
+    box-shadow: -7px 7px 7px rgb(64, 61, 61);
+    transition: all ease-in-out .3s;
+}
+
+.wrap-text-img-contact>.text-box {
+    text-align: left;
+    margin-right: 150px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(64, 61, 61);
+    transition: .3s;
+}
+
+.wrap-text-img-contact>.text-box:hover {
+    box-shadow: 12px 12px 12px rgb(64, 61, 61); 
+    transition: all ease-in-out .3s;
+}
+
+.wrap-text-img-contact>.text-box>.label{
+    font-weight: bolder;
+}
+
+.wrap-text-img-contact>.text-box>input{
+    width: 430px;
+}
+
+.wrap-text-img-contact {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.wrap-text-img-contact>.text-box>.t1 {
+    margin-left: 68px;    
+}
+
+.wrap-text-img-contact>.text-box>.t2 {
+    margin-left: 68px;    
+}
+
+.wrap-text-img-contact>.text-box>.t3 {
+    margin-left: 68px;    
+}
+
+.wrap-text-img-contact>.text-box>.t4 {
+    margin-left: 13px;    
+}
+
+.wrap-text-img-contact>.text-box>.kritik {
+    height: 40px;    
+}
+
+.wrap-text-img-contact>.text-box>button {
+    background-color: black;
+    color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    transition: .3s;
+} 
+
+.wrap-text-img-contact>.text-box>button:hover {
+    background-color: orange;
+    color: black;
+    transition: all ease-in-out .3s;
+} 
+
+.img-contact>img {
+    width: 445px;
+    height: 435px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.img-contact {
+    transition: .3s;
+}
+
+.img-contact:hover {
+    margin-left: 10px;
+    transition: all ease-in-out .3s;
+}
+
+/* Footer CSS*/
+.footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    height: 30px;
+    padding-top: 13px;
+}
+
+.footer>.text>.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.footer>.text>.logo:hover {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    transition: all ease-in-out .3s;
+}
+
+.footer>.text {
+    display: flex;
+}
+
+.footer>.text>p {
+    margin-right: 700px;
+    margin-top: 4px;
+    padding: 3px;
+    color: orange;
+    margin-left: 10px;
+    transition: .3s;
+}
+
+.footer>.text>p:hover {
+    font-size: 17px;
+    transition: all ease-in-out .3s;
+}
+
+.footer>.text>a>.wahid {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    transition: .3s;
+}
+
+.footer>.text>a>.wahid:hover {
+    margin-right: 10px;
+    width: 55px;
+    height: 55px;
+    transition: all ease-in-out .3s;
+}
+
+.footer>.text>a>.isnain {
+    width: 50px;
+    height: 40px;
+    margin-top: 6px;
+    margin-right: 40px;
+    transition: .3s;
+}
+
+.footer>.text>a>.isnain:hover {
+    width: 55px;
+    height: 45px;
+    margin-top: 6px;
+    transition: all ease-in-out .3s;
+}
+
+/* Responsive */
