@@ -1,0 +1,681 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif ;
+    background-color: black;
+    color: #fff;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 80%);
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.2rem solid orange;
+    font-size: 1rem;
+    padding: 1rem 7%;
+    font-size: 1.3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.brand a:hover {
+    opacity: 70%;
+}
+
+.brand h1 {
+    color: #fff;
+}
+
+.brand span {
+    color: orange;
+}
+
+nav .navbar-items a {
+    text-decoration: none;
+    margin: 0 1.3rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+nav .navbar-items a:hover {
+    text-decoration: none;
+    margin: 0 1.3rem;
+    color: #fff;
+    font-weight: 700;
+    border-bottom: .2rem solid orange;
+}
+
+nav .navbar-items .socials {
+    display: none;
+}
+
+nav .hamburger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+nav .hamburger-menu .hamburger {
+    display: none;
+    color: #fff;
+}
+
+nav .hamburger-menu .logo-nav {
+    height: 2.5rem;
+}
+
+nav .hamburger-menu .logo-nav:hover {
+    opacity: 80%;
+} 
+
+/* Hero */
+.hero {
+    height: fit-content;    
+    padding: 0 7%;
+    background: url(img/bg-hero.jpg);
+    overflow-y: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.hero .container .wrap {   
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.hero .container .wrap h1 {
+    color: orange;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px #333333;
+}
+
+.hero .container .wrap small {
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.hero .container .wrap .socials {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.hero .container .wrap .socials .yt {
+    color: #fff;
+    display: flex;
+    gap: 0.3rem;
+    background-color: orange;
+    padding: 0.3rem;
+    border: 3px solid #000000;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    box-shadow: 1px 1px 1px #000000;
+    transition: .3s;
+}
+
+.hero .container .wrap .socials .yt:hover {
+    box-shadow: .3rem .3rem .3rem #000000;
+    border: 3px solid #000000;
+}
+
+.hero .container .wrap .socials .ig {
+    color: #fff;
+    display: flex;
+    gap: 0.3rem;
+    background-color: orange;
+    padding: 0.3rem;
+    border: 3px solid #000000;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    box-shadow: 1px 1px 1px #000000;
+    transition: .3s;
+}
+
+.hero .container .wrap .socials .ig:hover {
+    box-shadow: .3rem .3rem .3rem #000000;
+    border: 3px solid #000000;
+}
+
+.hero .container .img {
+    display: flex;
+}
+
+
+.hero .container .img img {
+    width: 20rem;
+    height: 30rem;
+    margin-bottom: 0;
+    margin-top: 7.2rem;
+    min-height: max-content;
+}
+
+/* About */
+.about {
+    background: url(img/bg-about2.jpg);
+    padding-top: 6rem;
+    border: .3rem solid rgb(114, 71, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about .title {
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: larger;  
+}
+
+.about .title span {
+    color: orange;
+}
+
+.about .content {
+    margin-top: 4rem;
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.628);
+    margin: 1rem ;
+    border: .2rem solid #000000;
+    border-radius: 1.5rem;
+    box-shadow: .5rem .5rem .5rem #000000;
+    flex-wrap: wrap;
+    max-width: 768px;
+    justify-content: center;
+    transition: .3s;
+    text-shadow: .1rem .1rem .1rem #000;
+}
+
+.about .content:hover {
+    box-shadow: .6rem .6rem .6rem #000000;
+    border: .2rem solid #000000;
+}
+
+.about .content .img-abt {
+    width: 50%;
+    margin-bottom: 2px;
+    margin-top: 1rem;
+    border: 0.4rem solid black;
+    box-shadow: .3rem .3rem .3rem black;
+    border-radius: .4rem;
+}
+
+.about .content .text-abt {
+    margin: 1.5rem;
+}
+
+.about .content .text-abt a {
+    color: #fff;
+}
+
+.about .content .text-abt span {
+    color: red;
+}
+
+.about .content .image {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+
+.about .content .image img {
+    width: 25%;
+}
+
+/* Hobi */
+
+.about .hobbies {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.about .hobbies .title {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.about .hobbies h1 span {
+    color: orange;
+}
+
+.about .hobbies .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about .hobbies .container .card {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .7rem;
+    border-radius: 1rem;
+    box-shadow: .3rem .3rem .3rem #000000;
+    border: .2rem solid #000000;
+    transition: .3s;
+}
+
+.about .hobbies .container .card:hover {
+    box-shadow: .4rem .4rem .8rem #000000;
+    border: .2rem solid #000000;
+}
+
+.about .hobbies .container .card a {
+    font-weight: 600;
+    color: azure;
+    text-decoration: underline;
+}
+
+.about .hobbies .container .card img {
+    width: 20rem;
+    border: .5rem solid #000;
+    border-radius: .5rem;
+    transition: .3s all;
+}
+
+.about .hobbies .container .card img:hover {
+    border-width: .8rem;
+}
+
+.about .hobbies .container .card h2 {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    color: #ffffff;
+    text-shadow: .1rem .1rem .1rem #000;
+}
+
+.about .hobbies .container .card p {
+    max-width: 450px;
+    text-align: center;
+    text-shadow: .1rem .1rem .1rem #000;
+}
+
+/* Sertifikat */
+
+.about .sertifikat {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about .sertifikat .title {
+    max-width: 320px;
+    align-self: center;
+}
+
+.about .sertifikat .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 4rem;
+    gap: 1.5rem;
+}
+
+.about .sertifikat .container .card {
+    display: flex;
+    font-size: 1rem;
+    background-color: orange;
+    border: .3rem solid #000000;   
+    box-shadow: .2rem .2rem .1rem #000000;
+    gap: 1rem;
+    transition: all .3s;
+    width: 100%;
+}
+
+.about .sertifikat .container .card:hover {
+    box-shadow: .4rem .4rem 2rem #000000;
+    border: .3rem solid #000000;  
+}
+
+.about .sertifikat .container .card img{
+    width: 16rem;
+}
+
+.about .sertifikat .container .card .wrap .judul {
+    margin: 1.5rem 0;
+    max-width: 320px;
+    text-shadow: .1rem .1rem .1rem #000;
+}
+
+.about .sertifikat .container .card .wrap p {
+    margin: 1rem 0rem;
+    text-shadow: .1rem .1rem .1rem #000;
+}
+
+
+/* Contact */
+.contact {
+    background: url(img/bg-hero.jpg);
+    padding-bottom: 6rem;
+}
+
+.contact .title {
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 1.2rem;
+}
+
+.contact h1 span {
+    color: orange;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 2rem;
+}
+
+form {
+    background: url(img/bg-about2.jpg);
+    padding: 1.5rem;
+    border: .3rem solid #000000;
+    border-radius: 1rem;
+    width: 60%;
+    height: 100%;
+    box-shadow: .3rem .3rem .3rem #000;
+    font-weight: bold;
+}
+
+.form-label {
+    text-shadow: .1rem .1rem .1rem #000;
+}
+
+.nama,
+.email,
+.pesan {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.nama input,
+.email input,
+.pesan textarea {
+    padding: .3rem;
+    transition: all .3s;
+}
+
+.pesan textarea {
+    font-family: 'Poppins', sans-serif ;
+}
+
+.nama input,
+.email input,
+.pesan textarea {
+    border: .1rem solid #000 ;
+}
+
+.nama input:focus,
+.email input:focus,
+.pesan textarea:focus {
+    box-shadow: .1rem .1rem .3rem #000;
+}
+
+.nama input:hover,
+.email input:hover,
+.pesan textarea:hover {
+    box-shadow: .1rem .1rem .3rem #000;
+}
+
+form button {
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: .5rem;
+    background: #00000048;
+    color: #fff;
+    border: .1rem solid black;
+    transition: all .3s;
+}
+
+form button:hover {
+    background: #00000090;
+}
+
+
+
+/* Footer */
+
+
+
+/* Media Querries */
+
+/* Laptop */
+
+
+/* Tablet */
+@media (max-width: 768px) {
+    nav {
+        font-size: 1rem;
+    }
+
+    nav .navbar-items {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #fff;
+        width: 20rem;
+        height: 100vh;
+        transition: .3s;
+        flex-direction: column;
+        display: flex;
+        font-size: 1.5rem;
+    }
+
+    nav .navbar-items a:hover {
+        border-bottom: .2rem solid orange;
+        max-width: 8rem;
+    }
+    
+    nav .navbar-items.slide {
+        right: 0;
+    }
+
+    nav .navbar-items a {
+        color: black !important; 
+        width: 10rem !important;
+        padding: 0.5rem 0.5rem !important;
+        margin: 0 0.3rem !important;
+        max-width: 50%;
+    }
+
+    .hero {
+        height: fit-content;
+    }
+
+    .hero .container {
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+
+    .hero .container .wrap {
+        margin-top: 7rem; 
+        text-align: center;    
+    }
+
+    .hero .container .wrap .socials {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .hero .container .img img {
+        width: 24rem;
+        height: 34rem;
+        margin-bottom: 0;
+        margin-top: 2rem;    
+        align-self: flex-end;
+    }
+
+    nav .hamburger-menu .hamburger {
+        display: inline;
+    }
+
+    .about .content {
+        margin-top: 4rem;
+        display: flex;
+        background-color: rgba(255, 166, 0, 0.628);
+        margin: 1rem ;
+        border-radius: 1.5rem;
+        flex-wrap: wrap;
+        max-width: 450px;
+        justify-content: center;
+    }
+
+    .about .content .img-abt {
+        width: 70%;
+    }
+
+    .about .sertifikat .container .card {
+        flex-wrap: wrap;
+        display: grid;
+    }
+    
+    .about .sertifikat .container .card img {
+        justify-self: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        max-width: 250rem;
+        border: .3rem solid #000;
+    }
+
+    .about .sertifikat .container .card .wrap {
+        display: grid;
+    }
+
+    .about .sertifikat .container .card .wrap p {
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .about .sertifikat .container .card .wrap .judul {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .about .sertifikat .container .card .wrap .judul .sk {
+        margin: 0 1rem;
+    }
+
+    form {
+        background: url(img/bg-about2.jpg);
+        padding: 1rem;
+        border: .3rem solid #000000;
+        border-radius: 1rem;
+        width: 80%;
+        height: 100%;
+        box-shadow: .3rem .3rem .3rem #000;
+        font-weight: bold;
+    }
+}
+
+
+/* HandPhone */
+@media (max-width: 450px) {
+    nav {
+        font-size: 1rem;
+    }
+
+    nav .navbar-items {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #fff;
+        width: 15rem;
+        height: 100vh;
+        transition: .3s;
+        flex-direction: column;
+        display: flex;
+        font-size: 1.5rem;
+    }
+
+    .hero {
+        height: fit-content;
+    }
+
+    .hero .container {
+        justify-content: center;
+    }
+
+    .hero .container .wrap {
+        margin-top: 7rem; 
+        text-align: center;    
+    }
+
+    .hero .container .wrap h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero .container .wrap small {
+        font-size: 75%;
+    }
+
+    .hero .container .wrap .socials {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .hero .container .img img {
+        margin-top: 2rem;
+        width: 19rem;
+        height: 27.3rem;
+    }
+
+    .about .hobbies .container .card img {
+        width: 15rem;
+    }
+
+    .about .sertifikat .container .card .wrap p {
+        margin: 1rem;
+    }
+
+    form button {
+        padding: .8rem;
+        font-family: 'Poppins', sans-serif ;
+        font-weight: bold;
+        font-size: .8rem;
+        border-radius: .5rem;
+        background: #00000048;
+        color: #fff;
+        border: .1rem solid black;
+        transition: all .3s;
+    }
+}
+
+/* HandPhone kecil baat*/
+@media (max-width: 416px) {
+    .hero {
+        height: fit-content;
+    }    
+
+    .hero .container .img img {
+        width: 14rem;
+        height: 20.3rem;
+    }
+}
