@@ -3,234 +3,411 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Muhammad Zaidan Al Fath">
-    <meta name="keywords" content="HTML,CSS,Web Developer,Programming">
-    <meta name="description" content="Belajar buat web">
-    <title>Zaidan1106</title>
-    <link rel="shortcut icon" href="img/logo zaidan bulet.png" type="image/x-icon">
-    <!-- Link to CSS -->
+    <title>Zaidan's Portofolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="img/logo zaidan bulet.png" type="image/x-icon">
+
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-    <!-- Nav Bar Section Start -->
-    <div class="fContainer" id="nav">
-        <nav class="wrapper">
-            <div class="brand">
-                <div class="firstname">Zaidan</div>
-                <div class="lastname">1106</div>
-            </div>
-            <div class="searchbar">
-                <input type="text" name="text" class="search-input" placeholder="Cari Sesuatu. . .">
-                <img src="img/searchbar.png" alt="oi" class="img-searchbar">
-            </div>
-            <ul class="navigation">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about" class="active">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><img src="img/buat logo gif/gif-logo-ijo-merah.gif" alt="Logo Idun"></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- Nav Bar Section End -->
-
-    <!-- Home Section Start -->
-    <section id="home">
-        <div class="container-home">
-            <div class="row-align-center">
-                <div class="wrap-text-social">
-                    <div class="home-text">
-                        <h1>Hello World!</h1>
-                        <p>I'm <br><br><span>Muhammad Zaidan Al Fath</span></p>
-                    </div>
-                    <!-- Social Media Start -->
-                    <div class="social">
-                        <a href="https://youtube.com/channel/UCOiLPVtm6AXAUbd-OfCAyCw" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-youtube" viewBox="0 0 16 16">
-                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
-                          </svg>YouTube</a>
-                        <a href="https://www.google.com/url?q=https%3A%2F%2Finstagram.com%2Fzptzpt1106&sa=D&sntz=1&usg=AOvVaw0HL2Q-jn3NY_iwLUo21_Xx" target="_blank" class="instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                          </svg>Instagram</a>
-                    </div>
-                    <!-- Social Media End -->
-                </div>
-                <div class="home-image">
-                    <img src="img/zaidanxrohis-item-dasimerah.png" alt="">
-                </div>
-            </div>
-        </div>       
-    </section>
-    <!-- Home Section End -->
     
-    <!-- About Section Start -->
-    <section id="about">
-        <div class="container-about">
-            <div class="row-align-center-about">
-                <div class="wrapper-about">
-                    <div class="img-about">
-                        <img src="img/about-image.png" alt="gambar">
-                    </div>
-                    <div class="wrap-text-img">
-                        <div class="text-about">
-                            <h1>Introduction</h1>
-                            <p class="text-box">Assalammu'alaikum wr.wb <br>
-                                Halo semua, kenalin gw Muhammad Zaidan Al Fath dari jurusan PPLG di SMKN <br> 9 Kota Bekasi.Ini adalah web iseng" aja sih sebenernya, buat ngasah sedikit <br>pelajaran tentang buat web yang udah gw pelajari selama hampir setahun ini <br>di kelas 10, tepatnya dari organisasi <span class="span-satu">@meta.</span><span class="span-dua">tech.</span>
-                                Sooo, enjoy!
-                            </p>
-                        </div>
-                        <div class="img-text-about">
-                            <ul>
-                                <li class="siji"><img src="img/buat logo gif/gif-logo-ijo-merah.gif" alt="gambar1"></li>
-                                <li><img src="img/buat logo gif/gif-logo-ijo-merah.gif" alt="gambar2"></li>
-                                <li><img src="img/buat logo gif/gif-logo-ijo-merah.gif" alt="gambar3"></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Navbar start -->
+    <nav>
+        <div class="brand">
+            <a href="#home"><h1>Zaidan<span>1106</span></h1></a>
         </div>
 
-        <!-- Detail Section Start -->
-        <div class="detail">
-            <div class="container-detail">
-                <div class="wrapper-detail">
-                    <div class="textbox-detail">
-                        <h1>Detail</h1>
-                        <div class="wrap-p-img">
-                            <div class="text">
-                                <p><span>Nama :</span> Muhammad Zaidan Al Fath <br><span>TTL :</span> Jakarta, 11 Juni 2007 <br><span>Umur :</span> 16 Tahun <br><span>Hobi :</span> Ngoding, basket, game, gitaran, belajar(harus,xixixi) <br><span>Kelas :</span> XI SIJA/PPLG 1 <br><span></span></p>
-                            </div>
-                            <div class="img-detail1">
-                                <div class="wr-img-text-detail">
-                                    <img src="img/gitar.jpg" alt="ha" class="gitar">
-                                    <small>gitar</small>
-                                </div>
-                                <div class="wr-img-text-detail">
-                                    <img src="img/basket.png" alt="ha" class="koding">
-                                    <small>basket</small>
-                                </div>
-                                <div class="wr-img-text-detail">
-                                    <img src="img/koding.jpg" alt="ha" class="basket">
-                                    <small>ngoding</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="img-detail">
-                        <img src="img/meme-shocked.png" alt="shocked.jpg">
-                    </div>
-                </div>
-            </div>
+        <div class="navbar-items">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </div>
-
-        <div class="timeline">
-            <div class="judul-tl">
-                <h1>Time Line</h1>
-                <small>(Sekolah)</small>
-            </div>
-                <div class="wrapper-timeline">
-                    <div class="container left-container">
-                        <img src="img/logo zaidan buletputih.png" alt="">
-                        <div class="text-box-timeline">
-                            <h2>Lahir</h2>
-                            <small>2007</small>
-                            <p>Gw lahir di Jakarta, 11 Juni 2007. Gw anak pertama dari 2 bersaudara.</p>
-                        </div>
-                    </div>
         
-                    <div class="container right-container">
-                        <img src="img/logo zaidan buletputih.png" alt="">
-                        <div class="text-box-timeline">
-                            <h2>TPA</h2>
+        <div class="hamburger-menu">
+            <a href="#home"><img src="img/logo zaidan bulet.png" class="logo-nav" alt=""></a>
+            <a href="" class="hamburger" id="hamburger"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero section start -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="wrap">
+                <h1>Muhammad Zaidan Al Fath</h1>
+                <small>Pelajar SMKN 9 Kota Bekasi | calon Web Developer</small>
+                <div class="socials">
+                    <a href="https://www.instagram.com/zptzpt1106/" target="_blank" class="ig"><i data-feather="instagram"></i>Instagram</a>
+                    <a href="https://www.youtube.com/channel/UCOiLPVtm6AXAUbd-OfCAyCw" target="_blank" class="yt"><i data-feather="youtube"></i>YouTube</a>
+                </div>
+            </div>
+    
+            <div class="img">
+                <img src="img/hero-img.png" alt="oit">
+            </div>
+        </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- About section start -->
+    <section class="about" id="about">
+
+        <div class="title">
+            <h1>About <span>Me</span></h1>
+            <small>Sedikit perkenalan tentang saya.</small>
+        </div>
+
+        <div class="content">
+            <img src="img/abt-img2.png" alt="gambar" class="img-abt">
+            <div class="text-abt">
+                <p>Nama saya Muhammad Zaidan Al Fath, biasa dipanggil <strong>Zaidan</strong>. Saya lahir di Jakarta, 11 Juni 2007. Saya adalah Anak ke-1 dari dua bersaudara. Saat ini saya sedang menempuh pendidikan di <strong>SMKN 9 KOTA BEKASI</strong> di mana saya mengambil jurusan <strong>SIJA</strong> dan saat ini saya menempati kelas <strong>XI SIJA 1</strong>. Kedepannya saya ingin berprofesi sebagai <strong>Web Developer</strong>.</p>
+                <br>
+                <p>Awal mula saya mengenal dunia coding ini bersumber dari sebuah komunitas belajar yang ada di SMKN 9 KOTA BEKASI ini, yaitu <a href="https://www.instagram.com/meta.tech9/" target="_blank" ><strong>@meta.<span>tech.</span></strong></a> yang saya ikuti sejak saya masih kelas <strong>X SIJA 1</strong>. Dari komunitas tersebutlah saya mulai mengenal apa itu coding web dan banyak hal tentang IT.</p>
+                
+                <div class="image">
+                    <img src="img/logo smkn 9.jpg" alt="">
+                    <img src="img/Meta Tech Final ( For Dark ).png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- About section end -->
+
+        <!-- Timeline section start -->
+        <div class="timeline" id="timeline">
+            <div class="title">
+                <h1>My <span>Timeline</span></h1>
+                <small>Ini adalah timeline pendidikan saya.</small>
+            </div>
+            <div class="container-tl">
+                <div class="wrap-tl">
+                    <img src="img/logo zaidan buletputih.png" alt="" class="bullets">
+                    <div class="card-tl">
+                        <img src="img/logo/logo takditemukan.png" alt="hai" class="nf">
+                        <div class="text-tl">
+                            <h3>TPA Al Ihsan</h3>
                             <small>2010 - 2016</small>
-                            <p>Banyak prestasi yg diraih di sini, hafal an - naba, juara 1 ngaji (abasa 1-20). At the end gw mutusin buat ngaji ajah di rumah (males, naudzubillah).</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, possimus.</p>
                         </div>
                     </div>
-        
-                    <div class="container left-container">
-                        <img src="img/logo zaidan buletputih.png" alt="">
-                        <div class="text-box-timeline">
-                            <h2>R.A Miftahul Huda</h2>
+                </div>
+
+                <div class="garis">
+                    
+                </div>
+    
+                <div class="wrap-tl">
+                    <img src="img/logo zaidan buletputih.png" alt="" class="bullets">
+                    <div class="card-tl">
+                        <img src="img/logo/logo takditemukan.png" alt="hai" class="nf">
+                        <div class="text-tl">
+                            <h3>RA Miftahul Huda</h3>
                             <small>2011 - 2013</small>
-                            <p>Di sini lah gw belajar nulis, baca, ngaji sampe surat at - takatsur.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, possimus.</p>
                         </div>
                     </div>
-        
-                    <div class="container right-container">
-                        <img src="img/logo zaidan buletputih.png" alt="">
-                        <div class="text-box-timeline">
-                            <h2>SDIT Al Ikhlas 86</h2>
+                </div>
+    
+                <div class="wrap-tl">
+                    <img src="img/logo zaidan buletputih.png" alt="" class="bullets">
+                    <div class="card-tl">
+                        <img src="img/logo/logo-alix.png" alt="hai">
+                        <div class="text-tl">
+                            <h3>SDIT Al Ikhlas 86</h3>
                             <small>2013 - 2019</small>
-                            <p>Banyak hal berkesan terjadi di sini. Pramuka dgn segudang prestasinya, nilai UN tertinggi ke-2 sesekolah, juara lomba adzan, dll.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, possimus.</p>
                         </div>
                     </div>
-
-                    <div class="container left-container">
-                        <img src="img/logo zaidan buletputih.png" alt="">
-                        <div class="text-box-timeline">
-                            <h2>SMPN 29 Bekasi</h2>
+                </div>
+    
+                <div class="wrap-tl">
+                    <img src="img/logo zaidan buletputih.png" alt="" class="bullets">
+                    <div class="card-tl">
+                        <img src="img/logo/logo-dolan.png" alt="hai">
+                        <div class="text-tl">
+                            <h3>SMPN 29 Bekasi</h3>
                             <small>2019 - 2022</small>
-                            <p>Pertama kali ngerasain sekolah negeri. Hampir sama kayak di sd, pramuka,adzan,ngaji, oiya ada rubik 71 juta,mwehehe. COVID-19. </p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, possimus.</p>
                         </div>
                     </div>
-
-                    <div class="container right-container">
-                        <img src="img/logo zaidan buletputih.png" alt="">
-                        <div class="text-box-timeline">
-                            <h2>SMKN 9 Bekasi</h2>
+                </div>
+    
+                <div class="wrap-tl">
+                    <img src="img/logo zaidan buletputih.png" alt="" class="bullets">
+                    <div class="card-tl">
+                        <img src="img/logo smkn 9.jpg" alt="hai">
+                        <div class="text-tl">
+                            <h3>SMKN 9 Kota Bekasi</h3>
                             <small>2022 - Sekarang</small>
-                            <p>Milih jurusan SIJA, karena pengen lulus setara d1 awalnya, sekarang malah suka karna banyak hal terjadi karna SIJA. Tampil gitar, adzan, ngaji, masuk bbrapa organisasi, dan berlanjut. Semoga kedepannya saya sukses, aamiin.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, possimus.</p>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
-        <!-- Detail Section End -->
-    </section>
-    <!-- About Section End -->
+           
+        <!-- Timeline section end -->
 
-        <!-- Scroll-Up -->
-        <div class="scroll-up">
-            <a href="#home"><img src="img/scroll-up.png" alt=""></a>
-        </div>
-
-    <!-- Contact Section Start -->
-    <section id="contact">
-        <div class="container-contact">
-            <div class="text-contact">
-                <h1>Contact Me!</h1>
-                <div class="wrap-text-img-contact">
-                    <p class="text-box">
-                        <span class="label">Nama</span> <span class="t1">:</span> <input type="text" placeholder="Nama Lengkap">
-                        <br>
-                        <br>
-                        <span class="label">Kelas</span> <span class="t2">:</span> <input type="text" placeholder="Isi dengan nama kelasmu">
-                        <br>
-                        <br>
-                        <span class="label">Email</span> <span class="t3">:</span> <input type="email" placeholder="Isi Emailmu">
-                        <br>
-                        <br>
-                        <span class="label">Kritik&Saran</span> <span class="t4">:</span> <textarea name="Kritik" class="kritik" cols="30" rows="10" placeholder="Isi Kritik dan Saran"></textarea>
-                        <br>
-                        <br>
-                        <button>Submit</button>
-                    </p>
+        <!-- Hobi start -->
+        <div class="hobbies" id="hobbies">
+            <div class="title">
+                <h1>My <span>Hobbies</span></h1>
+                <small>Ini adalah beberapa hobi saya.</small>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="img/basket.png" alt="waw">
+                    <h2>Basket</h2>
+                    <p>Saya mulai tertarik pada olahraga basket pada awal masuk SMK ini. Alasannya sih karena pengen tinggi, hehe. Kadang saya suka main basket di jam istirahat pada saat sekolah, dan suka main di tamrus juga bareng teman - teman.</p>
+                </div>
+                <div class="card">
+                    <img src="img/ngoding2.jpg" alt="waw">
+                    <h2>Ngoding</h2>
+                    <p>Saya lagi hobi banget ngoding belakangan ini, terutama bikin website. Banyak banget tutorial yang seru buat dicobain dari yutup, misalnya kayak <a href="https://www.youtube.com/@sandhikagalihWPU">wpu</a>, <a href="https://www.youtube.com/@deaafrizal">dea afrizal</a>, dan <a href="https://www.youtube.com/@ProgrammerZamanNow">pzn</a>.
+                </div>
+                <div class="card">
+                    <img src="img/gitar.jpg" alt="waw">
+                    <h2>Gitar</h2>
+                    <p>Hobi lain saya tidak lain adalah bermain gitar. Btw foto di atas adalah foto saat saya tampil di <a href="https://www.instagram.com/nine.gravitasi/" target="_blank">ninegravitasi</a>  yaitu sebuah acara pentas seni di sekolah saya.</p>
+                </div>
+                <div class="card">
+                    <img src="img/craft.jpg" alt="waw">
+                    <h2>Crafting</h2>
+                    <p>Yap! crafting atau... prakarya lah sebutannya adalah hobi saya juga. Dulu awal - awal buat <a href="https://www.instagram.com/zptzpt1106/" target="_blank">instagram</a> niat awal kontennya emang kayak jadi 5 minute craft.</p>
                 </div>
             </div>
-            <div class="img-contact">
-                <img src="img/img-contact.png" alt="tumas selebew">
+        </div>
+        <!-- Hobi end -->
+
+        <!-- Organization start -->
+        <div class="organization" id="organization">
+            <div class="title-org">
+                <h1>My <span>Organization</span></h1>
+                <small>Beberapa Ekskul/organisasi yang saya ikuti</small>
+            </div>
+            <div class="wrap-org">
+                <div class="btn-left">
+                    <button onclick="slideLeft()"><i data-feather="arrow-left"></i></button>
+                </div>
+                <div class="card-org rohis">
+                    <div class="img-wrap-org">
+                        <img src="img/logo/logo-rohis.png" alt="" class="img-org">
+                        <a href="https://www.instagram.com/irma_smkn9bekasi/">@irma_smkn9bekasi</a>
+                    </div>   
+                    <div class="text-org rohis">
+                        <h3>ROHIS (Rohani Islam)</h3>
+                        <p>Ekskul yang mengajari saya ukhuwah islamiyah.</p>
+                    </div>
+                </div>
+                <div class="card-org meta">
+                    <div class="img-wrap-org">
+                        <img src="img/logo/Meta Tech Final ( For Dark ).png" alt="" class="img-org">
+                        <a href="https://www.instagram.com/meta.tech9/">@meta.tech9</a>
+                    </div>   
+                    <div class="text-org meta">
+                        <h3>MetaTech 9</h3>
+                        <p>Komunitas yang mengajari saya seputar IT.</p>
+                    </div>
+                </div>
+                <div class="card-org ic">
+                    <div class="img-wrap-org">
+                        <img src="img/logo/Logo IC nobg kecil.png" alt="" class="img-org">
+                        <a href="https://www.instagram.com/insightful_collective/">@insightful_collective</a>
+                    </div>   
+                    <div class="text-org ic">
+                        <h3>IC (Insightful Collective)</h3>
+                        <p>Komunitas yang mengajari saya seputar jurnalistik.</p>
+                    </div>
+                </div>
+                <div class="btn-right">
+                    <button onclick="slideRight()"><i data-feather="arrow-right"></i></button>
+                </div>
             </div>
         </div>
-    </section>
-    <!-- Contact Section End -->
+        <!-- Organization end -->
 
-    <!-- Footer Section Start-->
-    <div class="footer">
-        <div class="text">
-            <img src="img/buat logo gif/gif-logo-ijo-merah.gif" alt="logo" class="logo">
-            <p>Copyright Muhammad Zaidan Al Fath <br> &copy; 2023</p>
-            <a href="https://www.google.com/url?q=https%3A%2F%2Finstagram.com%2Fzptzpt1106&sa=D&sntz=1&usg=AOvVaw0HL2Q-jn3NY_iwLUo21_Xx" target="_blank"><img src="img/logo igeh.png" alt="1" class="wahid"></a>
-            <a href="https://youtube.com/channel/UCOiLPVtm6AXAUbd-OfCAyCw" target="_blank"><img src="img/logo yucup.png" alt="2" class="isnain"></a>
+        <!-- Sertifikat start -->
+        <div class="sertifikat" id="sertifikat">
+            <div class="title">
+                <h1>My <span>Certificate</span></h1>
+                <small>Beberapa sertifikat yang saya dapat di tahun 2023 ini.</small>
+            </div>
+            
+            <div class="container">
+                <div class="card">
+                    <img src="img/sertifikat/lms.png" alt="lms-idn certificate">
+                    <div class="wrap">
+                        <div class="judul">
+                            <h3>LMS ID-Networkers</h3>
+                            <small>27 Januari 2023</small>
+                        </div>
+                        <p>Ini adalah sertifikat yang diberikan oleh ID-Networkers (IDN.ID) kepada saya setelah saya menjalani kursus online yang diberikannya seputar "Jaringan Komputer Dasar."</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/sertifikat/sk.jpg" alt="lms-idn certificate">
+                    <div class="wrap">
+                        <div class="judul">
+                            <h3 class="sk">Sekolah Kepemimpinan IKOSI</h3>
+                            <small>24 Juni 2023</small>
+                        </div>
+                        <p>Sertifikat ini diberikan kepada saya setelah saya mengikuti rangkaian acara seminar yang dilaksanakan di Universitas Islam 45 Bekasi yang membawakan tema "Kepemimpinan."</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/sertifikat/adzan-pensil.png" alt="lms-idn certificate">
+                    <div class="wrap">
+                        <div class="judul">
+                            <h3>Lomba Adzan Pensil</h3>
+                            <small>5 Agustus 2023</small>
+                        </div>
+                        <p>Saya adalah salah satu peserta lomba adzan yang diselenggarakan oleh SMAN 5 Kota Bekasi. Funfact saya mengikuti lomba ini tepat seminggu setelah saya lomba adzan juga di Masjid Raya At Taqwa, Pekayon Jaya.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/sertifikat/peserta.jpg" alt="lms-idn certificate">
+                    <div class="wrap">
+                        <div class="judul">
+                            <h3 class="sk">Festival Pemuda Kota Bekasi 2023</h3>
+                            <small>27 Agustus 2023</small>
+                        </div>
+                        <p>Dari kurang lebih 20 orang yang mewakili SMKN 9 Kota Bekasi dalam acara ini, dan kurang lebih 3000 pemuda bekasi yang berpartisipasi dalam acara ini, saya adalah salah satunya. Kita membuat kostum dari barang bekas, latihan menari (saya rayon 3 : tari bendera), dan akhirnya tampil di depan Stadion Patriot Candrabhaga Bekasi yang juga dihadiri Pak Tri(Plt. Wali Kota Bekasi) dan disaksikan warga Kota Bekasi yang sedang CFD.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- Footer Section End-->
+        <!-- Sertifikat end -->
+    </section>
+    <!-- About section end -->
+
+    <!-- Contact section start -->
+    <section class="contact" id="contact">
+        <div class="title">
+            <h1>Contact <span>Me</span></h1>
+            <small>Boleh tulisin saya sesuatu, hehehe.</small>
+        </div>
+        <div class="container-form">
+            <div class="flash" id="f-info">
+                <p><strong>Terimakasih! </strong> pesan anda sudah diteruskan ke zaidan</p>
+                <button class="flash-close js-flash-close" 
+                    type="button" aria-label="Close" 
+                    onclick="closeAlert()">
+                      
+                    <!-- <%= octicon "x" %> -->
+                    <svg class="octicon octicon-x" 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 16 16" width="16"
+                        height="16">
+                        <path fill-rule="evenodd" clip-rule="evenodd" 
+                            d="M3.72 3.72C3.86062 3.57955 4.05125 3.50066 4.25 3.50066C4.44875 3.50066 4.63937 3.57955 4.78 3.72L8 
+                            6.94L11.22 3.72C11.2887 3.64631 11.3715 3.58721 11.4635 3.54622C11.5555 3.50523 11.6548 3.48319 11.7555
+                            3.48141C11.8562 3.47963 11.9562 3.49816 12.0496 3.53588C12.143 3.5736 12.2278 3.62974 12.299 3.70096C12.3703 
+                            3.77218 12.4264 3.85702 12.4641 3.9504C12.5018 4.04379 12.5204 4.14382 12.5186 4.24452C12.5168 4.34523 12.4948 
+                            4.44454 12.4538 4.53654C12.4128 4.62854 12.3537 4.71134 12.28 4.78L9.06 8L12.28 11.22C12.3537 11.2887 12.4128 11.3715 
+                            12.4538 11.4635C12.4948 11.5555 12.5168 11.6548 12.5186 11.7555C12.5204 11.8562 12.5018 11.9562 12.4641 12.0496C12.4264 
+                            12.143 12.3703 12.2278 12.299 12.299C12.2278 12.3703 12.143 12.4264 12.0496 12.4641C11.9562 12.5018 11.8562 12.5204 11.7555 
+                            12.5186C11.6548 12.5168 11.5555 12.4948 11.4635 12.4538C11.3715 12.4128 11.2887 12.3537 11.22 12.28L8 9.06L4.78 12.28C4.63782
+                            12.4125 4.44977 12.4846 4.25547 12.4812C4.06117 12.4777 3.87579 12.399 3.73837 12.2616C3.60096 12.1242 3.52225 11.9388 3.51882 
+                            11.7445C3.51539 11.5502 3.58752 11.3622 3.72 11.22L6.94 8L3.72 4.78C3.57955 4.63938 3.50066 4.44875 3.50066 4.25C3.50066 4.05125 
+                            3.57955 3.86063 3.72 3.72Z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <form name="zaidan-contact-form">
+                <div class="nama">
+                    <label for="name" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="name" name="Nama" placeholder="masukkan nama">
+                </div>
+    
+                <div class="email">
+                    <label for="email" class="form-label">Instagram / Email / dll</label>
+                    <input type="text" class="form-control" id="email" aria-describedby="email" name="Email" placeholder="masukkan akunmu">
+                </div>
+    
+                <div class="pesan">
+                    <label for="pesan" class="form-label">Pesan</label>
+                    <textarea class="form-control" id="pesan" rows="8" name="Pesan" placeholder="kesan/pesan/kritik juga bowleh"></textarea>
+                </div>
+                <div class="buttons-form">
+                    <button type="submit" class="btn-form-kirim">Kirim ke Zaidan</button>
+                    <button type="button" class="btn-form-loading">
+                        <i data-feather="loader"></i>
+                        <p>Loading . . .</p>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer start -->
+    <footer>
+        <div class="logo-brand">
+            <h2>Website by :</h2>
+            <p class="authors">Muhammad Zaidan Al Fath</p>
+            <img src="img/logo zaidan bulet.png" alt="logo kitah">
+            <p class="copy">&copy;2023</p>
+        </div>
+        <div class="container-footer">
+            <div class="home">
+                <a href="#home" class="judul-footer"><h3>Home</h3></a>
+                <a href="#home" class="list-footer">Home section</a>
+            </div>
+
+            <div class="about-footer">
+                <a href="#about" class="judul-footer"><h3>About</h3></a>
+                <a href="#about" class="list-footer">About Me</a>
+                <a href="#hobbies" class="list-footer">My Hobbies</a>
+                <a href="#sertifikat" class="list-footer">My Certificate</a>
+            </div>
+
+            <div class="contact-footer">
+                <a href="#contact" class="judul-footer"><h3>Contact</h3></a>
+                <a href="#contact" class="list-footer">Contact Me</a>
+            </div>
+
+            <div class="socials-footer">
+                <h3 class="judul-footer">Follow Me :</h3>
+                <a href="https://www.instagram.com/zptzpt1106/" target="_blank" class="list-footer"><i data-feather="instagram"></i>Instagram</a>
+                <a href="https://www.youtube.com/channel/UCOiLPVtm6AXAUbd-OfCAyCw" target="_blank" class="list-footer"><i data-feather="youtube"></i>YouTube</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    
+
+
+
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+    <!-- Feather Icon -->
+    <script>
+        feather.replace()
+    </script>
+
+    <!-- Contact dari gugel -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyg9SEIXMjusGX85tsNBJbspY2VT3-BcDD0rCUD8Im59kMF_-WV_pRnwryWRpOK5CTbTw/exec'
+        const form = document.forms['zaidan-contact-form']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 </html>
