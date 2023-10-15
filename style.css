@@ -294,11 +294,11 @@ nav .hamburger-menu .logo-nav:hover {
     background-color: #ffa500;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     border: .2rem solid #000000;
     border-radius: 1rem;
     box-shadow: .3rem .3rem .3rem #000000;
-    width: 100%;
+    max-width: 45rem;
 }
 
 .card-tl img {
@@ -311,13 +311,12 @@ nav .hamburger-menu .logo-nav:hover {
     border: .2rem solid #000;
 }
 
-.card-tl .text-tl p {
-    font-size: 1rem;
-    margin-top: 1.2rem;
+.card-tl .text-tl {
+    max-width: 45rem;
 }
 
-.card-tl .text-tl small {
-    font-size: .8rem;
+.card-tl .text-tl .judul-tl {
+    margin-bottom: 1rem;
 }
 
 .container-tl::before {
@@ -1052,6 +1051,29 @@ footer .container-footer .contact-footer {
 
     .card-org .text-org h3 {
         font-size: 1rem;
+    }
+
+    .card-tl {
+        flex-wrap: wrap;
+    }
+
+    .card-tl .text-tl h3 {
+        text-align: center;
+    }
+    
+    .card-tl .text-tl .judul-tl {
+        text-align: center;
+    }
+    
+    .card-tl .text-tl p {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+        text-align: center;
+    }
+    
+    .card-tl .text-tl small {
+        font-size: .8rem;
+        text-align: center;
     }
 }
 
