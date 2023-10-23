@@ -475,7 +475,7 @@ nav .hamburger-menu .logo-nav:hover {
     align-items: center ;
     border: .2rem solid rgb(0, 0, 0);
     padding: 1rem;
-    background: #00000048;
+    background: orange;
     box-shadow: .2rem .2rem .2rem rgb(0, 114, 25);
 }
 
@@ -484,7 +484,7 @@ nav .hamburger-menu .logo-nav:hover {
     align-items: center ;
     border: .2rem solid rgb(0, 0, 0);
     padding: 1rem;
-    background: #00000048;
+    background: orange;
     box-shadow: .2rem .2rem .2rem rgb(255, 0, 0);
 }
 
@@ -493,7 +493,7 @@ nav .hamburger-menu .logo-nav:hover {
     align-items: center ;
     border: .2rem solid rgb(0, 0, 0);
     padding: 1rem;
-    background: #00000048;
+    background: orange;
     box-shadow: .2rem .2rem .2rem rgb(255, 244, 223);
 }
 
