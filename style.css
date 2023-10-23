@@ -874,13 +874,15 @@ footer .container-footer .contact-footer {
         position: absolute;
         top: 100%;
         right: -100%;
-        background-color: #fff;
+        background-color: #000000d0;
         width: 20rem;
         height: 100vh;
         transition: .3s;
         flex-direction: column;
         display: flex;
         font-size: 1.5rem;
+        border-left: .2rem solid orange;
+        border-top: .2rem solid orange;
     }
 
     nav .navbar-items a:hover {
@@ -893,7 +895,7 @@ footer .container-footer .contact-footer {
     }
 
     nav .navbar-items a {
-        color: black !important; 
+        color: rgb(255, 255, 255) !important; 
         width: 10rem !important;
         padding: 0.5rem 0.5rem !important;
         margin: 0 0.3rem !important;
@@ -1089,7 +1091,7 @@ footer .container-footer .contact-footer {
         position: absolute;
         top: 100%;
         right: -100%;
-        background-color: #fff;
+        background-color: #000000d0;
         width: 15rem;
         height: 100vh;
         transition: .3s;
