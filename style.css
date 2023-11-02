@@ -441,6 +441,17 @@ nav .hamburger-menu .logo-nav:hover {
     cursor: pointer;
     background-color: #00000048;
     border: .2rem solid rgb(0, 0, 0);
+    transition: all .3s;
+}
+
+.wrap-org .btn-left:hover,
+.wrap-org .btn-right:hover {
+    margin: 1rem;
+    cursor: pointer;
+    background-color: #00000048;
+    border: .2rem solid rgb(0, 0, 0);
+    box-shadow: .2rem .2rem .2rem black;
+    transition: all .3s;
 }
 
 .wrap-org .btn-left button,
@@ -557,6 +568,70 @@ nav .hamburger-menu .logo-nav:hover {
 }
 
 
+/* Projects */
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.projects .title {
+    padding-top: 6rem;
+}
+
+.projects .container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: orange;
+    width: 20rem;
+    border-radius: 2rem;
+    border: .2rem solid black;
+    box-shadow: .2rem .2rem .2rem black;
+    transition: all .3s;    
+}
+
+.card-p:hover {
+    box-shadow: .4rem .4rem .4rem black;
+    transition: all .3s;
+}
+
+.card-p img {
+    width: 17.5rem;
+    border: .2rem solid black;    
+    border-radius: 1rem;
+    transition: all .3s;
+}
+
+.card-p img:hover {
+    transform: scale(1.05);
+    transition: all .3s;
+}
+
+.card-p .text-p {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-p .text-p p {
+    margin-top: 1rem;
+}
 
 
 
