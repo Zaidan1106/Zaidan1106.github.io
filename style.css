@@ -166,7 +166,7 @@ nav .hamburger-menu .logo-nav:hover {
     height: 34rem;
     margin-bottom: 0;
     margin-top: 7.2rem;
-    min-height: max-content;
+    min-height: max-content;z
 }
 
 /* About */
@@ -603,6 +603,34 @@ nav .hamburger-menu .logo-nav:hover {
     transition: all .3s;    
 }
 
+.card-p .tempel {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 6rem;
+    height: 1rem;
+    z-index: 999999999;
+    left: -1.5rem;
+    transform: rotate(-43deg);
+    top: 1rem;
+    border-radius: 1rem;
+    border: .2rem solid black;
+}
+
+.card-p .tempel1 {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 6rem;
+    height: 1rem;
+    z-index: 999999999;
+    right: -1.5rem;
+    transform: rotate(43deg);
+    top: 1rem;
+    border-radius: 1rem;
+    border: .2rem solid black;
+}
+
 .card-p:hover {
     box-shadow: .4rem .4rem .4rem black;
     transition: all .3s;
@@ -627,6 +655,15 @@ nav .hamburger-menu .logo-nav:hover {
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+
+.card-p .text-p a h3 {
+    color: purple;
+    text-decoration: underline;
+}
+
+.card-p .text-p a h3:hover {
+    color: rgb(243, 55, 243);
 }
 
 .card-p .text-p p {
