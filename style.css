@@ -89,7 +89,7 @@ nav .hamburger-menu .logo-nav:hover {
 .hero {
     height: fit-content;    
     padding: 0 7%;
-    background: url(img/bg-hero.jpg);
+    background: url(img/bg-hero\ -\ Copy.jpg);
     overflow-y: hidden;
 }
 
@@ -726,7 +726,7 @@ nav .hamburger-menu .logo-nav:hover {
 
 /* Contact */
 .contact {
-    background: url(img/bg-hero.jpg);
+    background: url(img/bg-hero\ -\ Copy.jpg);
     padding-bottom: 6rem;
 }
 
