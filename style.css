@@ -166,12 +166,12 @@ nav .hamburger-menu .logo-nav:hover {
     height: 34rem;
     margin-bottom: 0;
     margin-top: 7.2rem;
-    min-height: max-content;z
+    min-height: max-content;
 }
 
 /* About */
 .about {
-    background: url(img/bg-about2.jpg);
+    background: url(img/bg-about2\ -\ Copy.jpg);
     padding-top: 6rem;
     border: .3rem solid rgb(114, 71, 1);
     display: flex;
